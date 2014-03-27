@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f2f2f2"
+    >
+    <EditText
+        android:id="@+id/editText_seachcity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="输入城市拼音或中文搜索"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@drawable/search_background" 
+        android:paddingLeft="43dp">
+
+        <requestFocus />
+    </EditText>
+    <TextView 
+        android:id="@+id/editText_seachcity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="热门城市"
+        android:layout_marginLeft="7dp"
+        />
+
+    <ListView
+        android:id="@+id/listView_citys"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

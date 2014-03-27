@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#f2f2f2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:src="@drawable/hotel_pic" />
+
+        <Button
+            android:id="@+id/button_hotel_addr"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_button_bg_light"
+            android:gravity="center_vertical"
+            android:paddingLeft="30dp"
+            android:text="@string/hotel_addr"
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/button_hotel_info"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/selector_button_bg_light"
+            android:gravity="center_vertical"
+            android:paddingLeft="30dp"
+            android:text="@string/hotel_addr"
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/button_city_addr2"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/selector_button_bg_dark"
+            android:gravity="center_vertical"
+            android:paddingLeft="30dp"
+            android:text="@string/hotel_time"
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+
+        <ListView
+            android:id="@+id/listView_rooms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:fadeScrollbars="true">
+        </ListView>
+
+    </LinearLayout>
+
+</ScrollView>

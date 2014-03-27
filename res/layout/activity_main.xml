@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/logo_imageview"
+            android:layout_width="fill_parent"
+            android:layout_height="87dp"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+             android:id="@+id/linearLayout_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:padding="7dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:text="入住城市"
+                android:textColor="@android:color/secondary_text_light" />
+
+            <Button
+                android:id="@+id/button_city"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/selector_button_bg"
+                android:gravity="center_vertical"
+                android:padding="7dp"
+                android:text="@string/option_city" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:text="入住日期"
+                android:textColor="@android:color/secondary_text_light" />
+
+            <Button
+                android:id="@+id/button_date"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/selector_button_bg"
+                android:gravity="center_vertical"
+                android:padding="7dp"
+                android:text="@string/option_date" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:text="退房日期"
+                android:textColor="@android:color/secondary_text_light" />
+
+            <Button
+                android:id="@+id/button_checkout"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/selector_button_bg"
+                android:gravity="center_vertical"
+                android:padding="7dp"
+                android:text="@string/option_checkout" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_search"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ensure_button_bg"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="查找酒店"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+	
+    <FrameLayout 
+        android:id="@+id/framelayout_checkoutdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/linearLayout_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone" >
+        <ListView 
+            android:id="@+id/listview_checkoutdate"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="@android:color/white"
+            ></ListView>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/framelayout_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" 
+        android:visibility="gone"
+        >
+		<LinearLayout 
+		    android:orientation="vertical"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content">
+			<RelativeLayout
+			    android:id="@+id/relativelayout_option_bar_checkindate"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="horizontal"
+			    >
+			    <Button 
+			        android:id="@+id/button_cancel"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentLeft="true"
+			        android:text="取消"
+			        />
+			    <Button 
+			        android:id="@+id/button_ok"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentRight="true"
+			        android:text="确定"
+			        />
+			</RelativeLayout>
+			<LinearLayout 
+			    android:id="@+id/linearlayout_date_selector"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="horizontal"
+			    android:background="@android:color/white">
+				<ListView 
+				    android:id="@+id/listview_checkindate"
+				    android:layout_width="wrap_content"
+				    android:layout_height="250dp"
+				    android:layout_weight="1.0"
+				    >
+				</ListView>
+				<ListView 
+				    android:id="@+id/listview_days"
+				    android:layout_width="wrap_content"
+				    android:layout_height="250dp"
+				    android:layout_weight="2.0"
+			    	>
+			    </ListView>
+			</LinearLayout>
+		</LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   	android:gravity="center_vertical"
+    >
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="350dp"
+	    android:orientation="vertical"
+        >
+		<ImageSwitcher 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    >
+		    <ImageView 
+		        android:id="@+id/image_hotel"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/ic_launcher"
+		        android:layout_gravity="center_vertical"
+		        />
+		</ImageSwitcher>
+	</LinearLayout>
+	<TextView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#b0a9a9"
+	    android:gravity="center"
+	    android:text="@string/page" />
+</LinearLayout>

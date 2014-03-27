@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">easygo</string>
+    <string name="title_activity_main">easygo</string>
+    <string name="title_searchhotel">酒店搜索</string>
+    <string name="option_city">成都</string>
+    <string name="option_date">06月24日   周三</string>
+    <string name="option_checkout">06月25日  周四</string>
+    <string name="hotel_name">XXXX大酒店</string>
+    <string name="hotel_addr">XX区XX路XX号</string>
+    <string name="hotel_time">入住 06 24  离店 06 25</string>
+    <string name="page">1/1</string>
+    <string name="title_map">酒店定位</string>
+    <string name="title_getcity">选择城市</string>
+    <string name="search_hotel">酒店搜索</string>
+    <string name="hotel_info">天府国际大酒店坐落于台北市繁华商业中心西路捷运总站3号出口，地理位置优越，交通便利；提供226间精美设施齐全的标准上午客房。饭店临近台北火车站，距离国际机场仅40分钟车程。提供休闲活动使用。下榻天成大饭店，将会受到来自全体员工最佳的服务语最舒适的享受。</string>
+    <string name="hotel_tel">tel: 028-12345678</string>
+    <string name="title_activity_activity_hotelinfo">Activity_hotelinfo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_hotelinfo">酒店详情</string>
+
+</resources>
