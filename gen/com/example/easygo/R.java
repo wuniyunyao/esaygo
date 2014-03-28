@@ -925,18 +925,23 @@ containing a value of this type.
         public static final int ensure_button_bg=0x7f020078;
         public static final int hotel_pic=0x7f020079;
         public static final int ic_launcher=0x7f02007a;
-        public static final int launch_icon=0x7f02007b;
-        public static final int logo=0x7f02007c;
-        public static final int r_icon_search_list=0x7f02007d;
-        public static final int return_btn=0x7f02007e;
-        public static final int return_btn_bg=0x7f02007f;
-        public static final int return_btn_pressed=0x7f020080;
-        public static final int return_to_main=0x7f020081;
-        public static final int right_arrow=0x7f020082;
-        public static final int search_background=0x7f020083;
-        public static final int selector_button_bg=0x7f020084;
-        public static final int selector_button_bg_dark=0x7f020085;
-        public static final int selector_button_bg_light=0x7f020086;
+        public static final int img1=0x7f02007b;
+        public static final int img2=0x7f02007c;
+        public static final int img3=0x7f02007d;
+        public static final int img4=0x7f02007e;
+        public static final int img5=0x7f02007f;
+        public static final int launch_icon=0x7f020080;
+        public static final int logo=0x7f020081;
+        public static final int r_icon_search_list=0x7f020082;
+        public static final int return_btn=0x7f020083;
+        public static final int return_btn_bg=0x7f020084;
+        public static final int return_btn_pressed=0x7f020085;
+        public static final int return_to_main=0x7f020086;
+        public static final int right_arrow=0x7f020087;
+        public static final int search_background=0x7f020088;
+        public static final int selector_button_bg=0x7f020089;
+        public static final int selector_button_bg_dark=0x7f02008a;
+        public static final int selector_button_bg_light=0x7f02008b;
     }
     public static final class id {
         public static final int ImageView01=0x7f04005a;
@@ -1158,6 +1163,7 @@ containing a value of this type.
         public static final int title_getcity=0x7f090018;
         public static final int title_hotelinfo=0x7f09001f;
         public static final int title_map=0x7f090017;
+        public static final int title_pic=0x7f090020;
         public static final int title_searchhotel=0x7f09000f;
     }
     public static final class style {

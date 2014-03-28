@@ -72,6 +72,7 @@
             android:screenOrientation="sensor" >
         </activity>
         <activity android:name="com.example.easygo.Activity_hotelinfo" />
+        <activity android:name="com.example.easygo.Activity_hotelpic" />
     </application>
 
 </manifest>

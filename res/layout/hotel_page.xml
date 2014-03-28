@@ -11,6 +11,7 @@
         android:padding="10dp" >
 
         <ImageView
+            android:id="@+id/image_hotel"
             android:layout_width="match_parent"
             android:layout_height="125dp"
             android:src="@drawable/hotel_pic" />
@@ -50,12 +51,6 @@
             android:textColor="@android:color/white"
             android:textSize="15dp" />
 
-        <ListView
-            android:id="@+id/listView_rooms"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" 
-            android:fadeScrollbars="true">
-        </ListView>
 
     </LinearLayout>
 

@@ -20,5 +20,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_hotelinfo">酒店详情</string>
+    <string name="title_pic">酒店图片</string>
 
 </resources>

@@ -40,6 +40,18 @@ public class Activity_hotelpage extends SherlockActivity {
 		ListView hotels = (ListView)findViewById(R.id.listView_rooms);
 		Button btn_map = (Button)findViewById(R.id.button_hotel_addr);
 		Button btn_more = (Button)findViewById(R.id.button_hotel_info);
+		ImageView image = (ImageView)findViewById(R.id.image_hotel);
+		
+		image.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(Activity_hotelpage.this,Activity_hotelpic.class);
+				startActivity(intent);
+			}
+		});
+		
 		btn_map.setOnClickListener(new OnClickListener() {
 			
 			@Override
