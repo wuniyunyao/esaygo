@@ -37,7 +37,6 @@ public class Activity_hotelpage extends SherlockActivity {
 		initActionBar();
 		
 		
-		ListView hotels = (ListView)findViewById(R.id.listView_rooms);
 		Button btn_map = (Button)findViewById(R.id.button_hotel_addr);
 		Button btn_more = (Button)findViewById(R.id.button_hotel_info);
 		ImageView image = (ImageView)findViewById(R.id.image_hotel);
@@ -70,39 +69,7 @@ public class Activity_hotelpage extends SherlockActivity {
 				startActivity(intent);
 			}
 		});
-		
-		data = new ArrayList<String>();
-		for(int i=0;i<10;i++)
-		{
-			data.add("object:"+i);
-		}
-		
-		hotels.setAdapter(new BaseAdapter() {
-			@Override
-			public View getView(int position, View convertView, ViewGroup parent) {
-				// TODO Auto-generated method stub
-				convertView = LayoutInflater.from(Activity_hotelpage.this).inflate(android.R.layout.simple_list_item_1, null);
-				return convertView;
-			}
 			
-			@Override
-			public long getItemId(int position) {
-				// TODO Auto-generated method stub
-				return position;
-			}
-			
-			@Override
-			public Object getItem(int position) {
-				// TODO Auto-generated method stub
-				return data.get(position);
-			}
-			
-			@Override
-			public int getCount() {
-				// TODO Auto-generated method stub
-				return data.size();
-			}
-		});
 	}
 	private void initActionBar(){
 		getSupportActionBar().setDisplayShowCustomEnabled(true);

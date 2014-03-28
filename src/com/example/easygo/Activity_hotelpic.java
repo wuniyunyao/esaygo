@@ -45,8 +45,10 @@ public class Activity_hotelpic extends SherlockActivity implements OnGestureList
 				BitmapFactory.decodeResource(getResources(), R.drawable.img5) };
 
 		myGesture = new GestureDetector(this);
-		flingView = new FlingView(this, bitmaps);
-		setContentView(flingView);
+		//flingView = new FlingView(this, bitmaps);
+		setContentView(R.layout.hotel_largepic);
+		flingView = (FlingView)findViewById(R.id.myflingview);
+		flingView.setBitMaps(bitmaps);
 		initActionBar();
 	}
 	

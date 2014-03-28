@@ -36,7 +36,12 @@ public class FlingView extends View {
 		bitmap = getBitmap(0);
 		nBitmap = getBitmap(1);
 	}
-
+	
+	public void setBitMaps(Bitmap[] bitmaps){
+		this.bitmaps = bitmaps;
+		bitmap = getBitmap(0);
+		nBitmap = getBitmap(1);
+	}
 	@Override
 	public void draw(Canvas canvas) {
 		Paint paint = new Paint();
@@ -53,7 +58,7 @@ public class FlingView extends View {
 			canvas.drawBitmap(bitmap, null, rect, paint);
 		}
 		
-		// 绘制下一张图�?
+		// 绘制下一张图
 		if (offsetX < 0) {			// 向左滑动
 			if (nBitmap != null) {
 				int left = Activity_hotelpic.deviceScreenWidth + 15 + offsetX;

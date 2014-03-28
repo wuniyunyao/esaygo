@@ -994,10 +994,10 @@ containing a value of this type.
         public static final int button_cancel=0x7f04003e;
         public static final int button_checkout=0x7f040038;
         public static final int button_city=0x7f040036;
-        public static final int button_city_addr2=0x7f040066;
+        public static final int button_city_addr2=0x7f040067;
         public static final int button_date=0x7f040037;
-        public static final int button_hotel_addr=0x7f040064;
-        public static final int button_hotel_info=0x7f040065;
+        public static final int button_hotel_addr=0x7f040065;
+        public static final int button_hotel_info=0x7f040066;
         public static final int button_ok=0x7f04003f;
         public static final int button_search=0x7f040039;
         public static final int disableHome=0x7f040009;
@@ -1016,7 +1016,7 @@ containing a value of this type.
         public static final int imageView1=0x7f040058;
         public static final int imageView2=0x7f04005c;
         public static final int image_costprice=0x7f04006f;
-        public static final int image_hotel=0x7f04005f;
+        public static final int image_hotel=0x7f040064;
         public static final int image_hotelitem=0x7f040068;
         public static final int image_nowprice=0x7f040070;
         public static final int image_park=0x7f04006c;
@@ -1030,12 +1030,12 @@ containing a value of this type.
         public static final int listMode=0x7f040002;
         public static final int listView_citys=0x7f040057;
         public static final int listView_hotels=0x7f040063;
-        public static final int listView_rooms=0x7f040067;
         public static final int listview_checkindate=0x7f040041;
         public static final int listview_checkoutdate=0x7f04003b;
         public static final int listview_days=0x7f040042;
         public static final int logo_imageview=0x7f040034;
         public static final int mainlayout=0x7f040032;
+        public static final int myflingview=0x7f04005f;
         public static final int normal=0x7f040001;
         public static final int relativelayout_option_bar_checkindate=0x7f04003d;
         public static final int return_main=0x7f040074;
